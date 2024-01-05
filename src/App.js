@@ -36,8 +36,8 @@ function App() {
     <UserContextProvider>
       <Toaster />
 
-      <Preloader />
-      <Header />
+      {/* <Preloader /> */}
+      {/* <Header /> */}
       <Routes>
         {/* <Route path="/" element={<Profile />} /> */}
         <Route path="/" element={<><Home /></>} />

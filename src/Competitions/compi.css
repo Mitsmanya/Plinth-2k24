@@ -9,7 +9,7 @@
   }
   
   /* CSS */
-  .button-63 {
+  .button-63-competition {
     align-items: center;
     background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
     border: 0;
@@ -31,7 +31,7 @@
     touch-action: manipulation;
     white-space: nowrap;
     cursor: pointer;
-    margin-left: 25%;
+    margin-left: 38%;
     margin-top: 5%;
   }
   
@@ -48,7 +48,6 @@
     flex-basis: calc(30% - 10px);
     margin-bottom: 10px;
   }
-  
   
   /* Event.css */
   /* Add these styles or update existing styles */
@@ -103,7 +102,6 @@
   }
   
   
-  
   body {
     overflow-x: hidden;
   }
@@ -114,6 +112,7 @@
       min-width: 196px;
     }
   }
+
   * {
     margin: 0px;
     padding: 0px;
@@ -197,8 +196,6 @@
     align-content: flex-start;
     gap: 10%; /* Adjust the gap as needed */
     flex-wrap: wrap;
-    
-    
   }
   
   .card2 {
@@ -216,16 +213,15 @@
   }
   
   
-  
   @media (max-width: 768px) {
     .mobv {
       display: none;
     }
      .card2 {
       width: 80%;
-      height: 500px;
-      margin-bottom: 10%;
-      margin-left: 4%;
+      height: 600px;
+      margin-bottom: 1%;
+      margin-left: 1%;
      }
      .cards a {
       width: 100%;
@@ -238,18 +234,24 @@
   
   @media screen and (max-width:700px) {
       .card2{
-        margin-left: 8%;
+        margin-left: 1%;
       }
   }
   @media screen and (max-width:560px) {
     .card2{
-      margin-left: 12%;
+      margin-left: 1%;
     }
 }
 
 @media screen and (max-width:490px) {
+
+  .button-63-competition 
+  {
+    margin-left: 26%;
+     
+  }
   .card2{
-    margin-left: 14%;
+    margin-left: 1%;
   }
 }
 
@@ -259,7 +261,6 @@
     position: relative;
     overflow: hidden;
     border-radius: 30px;
-
   }
   
   .card2 img {

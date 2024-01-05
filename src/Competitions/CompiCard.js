@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 import { useNavigate,Link } from "react-router-dom";
 import Explore from '../Explore/Explore.jsx';
 
-
 const EventCard = ({ day, artist, description, image, googleform, badaDescription,rulebook, pricepool }) => {
   const [clicked, setClicked] = useState(false);
   const navigate = useNavigate();
@@ -38,7 +37,7 @@ const EventCard = ({ day, artist, description, image, googleform, badaDescriptio
       <p className="day">{day}</p>
       <p className="artist">{artist}</p>
       <p className="desc">{description}</p>
-      <button className="button-63" onClick={handleClick}>Explore
+      <button className="button-63-competition" onClick={handleClick}>Explore
       </button>
 
      {/* Render Explore component when the button is clicked */}

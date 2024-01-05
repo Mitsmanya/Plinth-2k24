@@ -1,8 +1,6 @@
 body{
   margin: 0rem;
-
   padding: 0;
-
   font-family: Poppins;
 }
 
@@ -116,7 +114,6 @@ font-size: 1.5rem;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-
   /* border-bottom: 2px solid white; */
 } 
 
@@ -132,10 +129,10 @@ transform: translateX(50%);
 .login_box .signGoogle a{
   color: #000;
 text-align: center;
-font-family: Product Sans Medium;
+/* font-family: Product Sans Medium; */
 font-size: 1.25rem;
 font-style: normal;
-font-weight: 500;
+font-weight: 600;
 line-height: normal;
 padding-left: 0.5rem;
 }
@@ -144,7 +141,7 @@ padding-left: 0.5rem;
     background: #FFF;
     text-align: center;
     font-size: 1.3rem;
-    padding: 0.6rem;
+    padding: 0.3rem;
     font-weight: 650;
     width: 100%;
     white-space: nowrap;

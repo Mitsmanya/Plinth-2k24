@@ -1,7 +1,6 @@
 .body{
     text-align: center;
-    /* color: white; */
-   
+    /* color: white; */ 
 }
 
 .text {
@@ -25,7 +24,7 @@
 .topHeading{
     margin-top: 5%;
     font-size: 96px;
-   margin-bottom: 8%;
+    margin-bottom: 8%;
     color: white;
     font-weight: 800;
     text-align: center;
@@ -33,15 +32,11 @@
 }
 
 .content{
-
-   
     font-family: text;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-
 
 .content-text1{
    
@@ -133,8 +128,6 @@
     margin-left: 15%;
 }
 
-
-
 .content3-text2{
     text-align: justify;
     font-size: 22px;
@@ -175,9 +168,9 @@
   } */
 
 
-  .about-us-container {
+.about-us-container {
     overflow-x: hidden;
-  }
+}
 
 
 /* .scroll-section {
@@ -190,12 +183,12 @@
   } */
 
 
-  .about-us-container {
+.about-us-container {
     overflow-x: hidden;
-  }
+}
 
-  @media screen and (max-width: 1050px)
-  {
+@media screen and (max-width: 1050px)
+{
     .content{
         margin-left: 5%;
         
@@ -232,14 +225,12 @@
     margin-left: 5%;
    }
 
-  }
+}
 
-  @media screen and (max-width: 800px)
-  {
-
+@media screen and (max-width: 800px)
+{
     .content,.content3{
         margin-left: 3%;
-        
     }
     .content-image{
         width: 150%;
@@ -272,18 +263,16 @@
    .text2{
     margin-left: 5%;
    }
+}
 
-  
-  }
-
-  @media screen and (max-width: 700px)
-  {
+@media screen and (max-width: 700px)
+{
    .content-image{
     display: none;
    }
    .content
    ,.content3{
-    margin-left: 10%;
+    margin-left: 1%;
    }
  
    .content-text1,.content2-text1
@@ -299,7 +288,7 @@
 
    .content2{
     width: 70%;
-    margin-left: 19%;
+    margin-left: 11%;
    }
 
    .content2-image 
@@ -324,9 +313,8 @@
 
    .content3{
     width: 90%;
-    margin-left: 8%;
+    margin-left: 1%;
    }
-
 
    .content2-text1
    {
@@ -337,15 +325,13 @@
    {
     width: 100%;
    }
+}
 
-
-  }
-
-  @media screen and (max-width: 400px)
-  {
+@media screen and (max-width: 400px)
+{
     .content{
 
-        margin-left: 12%;
+        margin-left: 1%;
     }
     .content-image{
         display: none;
@@ -353,7 +339,7 @@
     .content-text1
     {
         text-align: left;
-     font-size: 30px;
+        font-size: 30px;
     }
 
     .topHeading 
@@ -366,7 +352,7 @@
         line-height: 1.5;
         font-weight: 300;
         text-align: left;
-     font-size: 15px;
+        font-size: 15px;
     }
 
     .content2-text1
@@ -375,7 +361,7 @@
     }
  
     .content2{
-        margin-left: 20%;
+        margin-left: 11%;
         width: 73%;
         text-align: left;
     }
@@ -399,7 +385,7 @@
 
     .content3{
         width: 90%;
-        margin-left: 9%;
+        margin-left: 1%;
     }
     .content3-text1
     {
@@ -412,4 +398,4 @@
         text-align: left;
      font-size: 13px;
     }
-  }
+}

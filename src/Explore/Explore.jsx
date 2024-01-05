@@ -29,7 +29,7 @@ const Explore = () => {
           <div className={ExploreCss.pricepoolDiv}>
             <h6 className={ExploreCss.pricepool}>PRICE POOL - {pricepool}</h6>
           </div>
-          <button className={ExploreCss.register}> <a href={googleform}>REGISTER</a></button>
+          <a href={googleform}><button className={ExploreCss.register}> REGISTER</button></a>
         </div>
         <div className={ExploreCss.rightDiv}>
           <div className={ExploreCss.imageDiv}>
@@ -37,8 +37,8 @@ const Explore = () => {
             <img className={ExploreCss.image} src={image} alt="Event" />
           </div>
           {/* Rule book */}
-          <button className={ExploreCss.rulebookbutton}>
-            <Link className={ExploreCss.link} to={rulebook}>RULE BOOK</Link>
+          <button className={ExploreCss.register1}><Link className={ExploreCss.register2} to={rulebook}>
+            RULE BOOK</Link>
           </button>
         </div>
       </div>

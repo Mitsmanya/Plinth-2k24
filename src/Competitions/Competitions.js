@@ -61,8 +61,7 @@ function Competitions() {
   };
 
 
-
-
+  
   const cubeStyle = {
     position: 'absolute',
     top: 0,
